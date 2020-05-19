@@ -24,10 +24,14 @@ we will be using nodeMialer to redirect the smtp emails.
 Jayde - works really well with express.
 
 Body-Parser is an important concept:
+
 Body-Parser streamlines your data components across internet. 
+
 Use bodyParser() if you want the form data to be available in req.body.
-application/x-www-form-urlencoded
-multipart/form-data
-application/json
-application/xml
+
+[] application/x-www-form-urlencoded
+[] multipart/form-data
+[] application/json
+[] application/xml
+
 As we have various formats of data like Json, xml, & etc we use bodyParser to streamline the data.
